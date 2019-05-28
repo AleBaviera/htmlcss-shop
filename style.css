@@ -15,35 +15,48 @@ body{
   padding: 10px;
   position: relative;
 }
-.boximgrosa{
-  background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSDfqrKPgnX-GgHO0436E5eA9OAot3szRkuATaGDlCOnHFBJEUPpwY43VyTug8oqW4q8gPLwAMBmew9tThLxeGv38joxgjjvygXg4AxnN-IDSXc2KVkeo6I&usqp=CAc);
+.boxsingolo{
   width: 200px;
-  height: 250px;
+  height: 280px;
+  background-color: white;
   background-repeat: no-repeat;
   position: absolute;
-  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.boximgrosa{
+  background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSDfqrKPgnX-GgHO0436E5eA9OAot3szRkuATaGDlCOnHFBJEUPpwY43VyTug8oqW4q8gPLwAMBmew9tThLxeGv38joxgjjvygXg4AxnN-IDSXc2KVkeo6I&usqp=CAc);
+    margin-left: 0;
+    position: absolute;
+
 }
 
 .boximgbianco{
   background-image: url(https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTrziYFzZAocNF20LfGtNjl-Gtfr5mQ3vZMKuMyV6H_j8wSTxx1pPuKvMIfunGFxy5J4EQmYr8XUN5PNt2773XS8P4PBb7_ZbEd-RXgksnJwlA0gErvMf5b&usqp=CAc);
-  width: 200px;
-  height: 250px;
-  background-repeat: no-repeat;
-  position: absolute;
   margin-left: 210px;
 
 }
 
 .boximgoro{
   background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQTS-M3uzA6AL4dB9fTDwWv_0-DmJk1JhnR2l9E6xL0T6zwsisouW8B1aIrLsnRHRX1FBfkrZ9FjnrjCr8eN6oyH2wjhIMQG0m9mdkrzriU4Se94WiqCUK48g&usqp=CAc);
-  width: 200px;
-  height: 250px;
-  background-repeat: no-repeat;
-  position: absolute;
   margin-left: 420px;
-
 }
 
 .secondafila div{
   margin-top: 300px;
+}
+
+.cuore{
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+}
+.scontogreen{
+  background-color: green;
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  margin-top: 0px;
+  margin-right: 0px;
+  z-index: 2;
 }
