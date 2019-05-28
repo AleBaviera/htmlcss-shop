@@ -18,7 +18,7 @@ body{
   width: 200px;
   height: 250px;
   background-repeat: no-repeat;
-  position: relative;
+  position: absolute;
   margin-left: 0;
 }
 
@@ -27,7 +27,8 @@ body{
   width: 200px;
   height: 250px;
   background-repeat: no-repeat;
-  position: relative;
+  position: absolute;
+  margin-left: 210px;
 
 }
 
@@ -36,6 +37,7 @@ body{
   width: 200px;
   height: 250px;
   background-repeat: no-repeat;
-  display: inline-block;
+  position: absolute;
+  margin-left: 420px;
 
 }
